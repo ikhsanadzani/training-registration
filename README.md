@@ -14,9 +14,9 @@ Aplikasi ini dibangun menggunakan:
    ```
 
 2. **Konfigurasi Database**
-   Buat database PostgreSQL dengan nama `training_db` atau sesuaikan. Jika menggunakan URL yang berbeda, buat file `.env` di folder utama aplikasi ini dan tambahkan:
+   Buat database PostgreSQL dengan nama yang sesuaikan. Jika menggunakan URL yang berbeda, buat file `.env` di folder utama aplikasi ini dan tambahkan:
    ```
-   DATABASE_URL=postgresql://user:password@localhost:5432/training_db
+   DATABASE_URL=postgresql://user:password@localhost:5432/(nama_database)
    PORT=3000
    ```
    > **Note**: Saat backend pertama kali dijalankan, ia akan secara otomatis membuat tabel `registrations` yang diperlukan jika belum ada.
