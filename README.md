@@ -8,7 +8,7 @@ Aplikasi ini dibangun menggunakan:
 ## Cara Menjalankan
 
 1. **Install Dependencies**
-   Buka terminal di folder aplikasi ini (`/srv/ftps/.gemini/antigravity/scratch/training-registration`) dan jalankan:
+   Buka terminal di folder aplikasi ini dan jalankan:
    ```bash
    npm install
    ```
